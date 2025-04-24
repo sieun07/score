@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    background-color: #FFF1D5;
+}
+
+.login {
+    width: 50%;
+    position: absolute;
+    top: 20%;
+}
+
+.login-wrapper{
+    width: 30%;
+    height: 45%;
+    margin: 1%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+h2{
+    color: #9EC6F3;
+}
+
+.who-check{
+    margin-top: 3%;
+    border-radius: 10px;
+    padding-left: 2%;
+    font-size: 15px;
+}
+
+.id {
+    width: 91%;
+    height: 48px;
+    margin-top: 4%;
+    border-radius: 10px;
+    padding-left: 5%;
+    background-color: rgb(239, 239, 239);
+}
+
+.password {
+    width: 91%;
+    height: 48px;
+    margin-top: 4%;
+    border-radius: 10px;
+    padding-left: 5%;
+    background-color: rgb(239, 239, 239);
+}
+
+.remember-check{
+    margin-top: 3%;
+    border-radius: 10px;
+    padding-left: 2%;
+    font-size: 15px;
+}
+
+.sumit {
+    width: 97%;
+    height: 51px;
+    margin-top: 4%;
+    border-radius: 10px;
+    background-color: #9EC6F3;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.signup {
+    font-size: 13px;
+    text-decoration: none;
+    color: #9EC6F3;
+    margin-top: 1%;
+}

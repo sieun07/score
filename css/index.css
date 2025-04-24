@@ -1,0 +1,45 @@
+body {
+    background-color: #FFF1D5;
+}
+
+header>.logo {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.logo > img {
+    width: 38%;
+    height: auto;
+    margin: 7%;
+}
+
+.introduce {
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    font-size: 40px;
+}
+
+.next {
+    width: 6%;
+    height: 5%;
+    position: absolute;
+    top: 54%;
+    left: 3%;
+    border: none;
+    border-radius: 10px;
+    background-color: #9EC6F3;
+    color: white;
+}
+
+.main{
+    width: 45%;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+}
