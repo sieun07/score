@@ -1,5 +1,5 @@
 body {
-    background-color: #FFF1D5;
+    background-color: white;
 }
 
 header>.logo {
@@ -32,8 +32,9 @@ header>.logo {
     left: 3%;
     border: none;
     border-radius: 10px;
-    background-color: #9EC6F3;
+    background-color: #BCCCDC;
     color: white;
+    cursor: pointer;
 }
 
 .main{

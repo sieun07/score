@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FFF1D5;
+    background-color: white;
 }
 
 .login {
@@ -16,13 +16,13 @@ body {
 
 .login-wrapper{
     width: 30%;
-    height: 45%;
+    height: 38%;
     margin: 1%;
-    background-color: white;
+    background-color: #BCCCDC;
     padding: 2%;
     border-radius: 15px;
     position: absolute;
-    top: 20%;
+    top: 25%;
     right: 10%;
 }
 
@@ -34,23 +34,16 @@ label {
 }
 
 h2{
-    color: #9EC6F3;
-}
-
-.who-check{
-    margin-top: 3%;
-    border-radius: 10px;
-    padding-left: 2%;
-    font-size: 15px;
+    color: white;
 }
 
 .id {
     width: 91%;
     height: 48px;
-    margin-top: 4%;
+    margin-top: 5%;
     border-radius: 10px;
     padding-left: 5%;
-    background-color: rgb(239, 239, 239);
+    background-color: white;
 }
 
 .password {
@@ -59,14 +52,15 @@ h2{
     margin-top: 4%;
     border-radius: 10px;
     padding-left: 5%;
-    background-color: rgb(239, 239, 239);
+    background-color: white;
 }
 
 .remember-check{
-    margin-top: 3%;
+    margin-top: 1%;
     border-radius: 10px;
     padding-left: 2%;
     font-size: 15px;
+    color: white;
 }
 
 .sumit {
@@ -74,15 +68,23 @@ h2{
     height: 51px;
     margin-top: 4%;
     border-radius: 10px;
-    background-color: #9EC6F3;
+    background-color: #d1e4fb;
     font-size: 25px;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
 .signup {
     font-size: 13px;
     text-decoration: none;
-    color: #9EC6F3;
+    color: white;
     margin-top: 1%;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
 }

@@ -9,15 +9,10 @@
 </head>
 
 <body>
+    <img src="/img/teacher.png" alt="">
     <div class="login-wrapper">
         <h2>Login</h2>
 
-        <label class="who-check">
-            <p>선생님</p>
-            <p><input name="who-check" type="checkbox" value="1" onclick="NoMultiChk(this)" /></p>
-            <p>학생</p>
-            <p><input name="who-check" type="checkbox" value="2" onclick="NoMultiChk(this)" /></p>
-        </label>
 
         <form method="post" action="서버의url" id="login-form">
             <input class="id" type="text" placeholder="아이디를 작성해주세요">
@@ -28,11 +23,10 @@
                 <input type="checkbox" class="remember-check"> 아이디 저장하기
             </label>
 
-            <button class="sumit" onclick="javascript:OnSave();">Login</button>
-            <a class="signup" href="/template/signup.html">아직 계정이 없으신가요?</a>
+            <button class="sumit" >Login</button>
+            <a class="signup" href="/template/signup_teacher.html">아직 계정이 없으신가요?</a>
         </form>
     </div>
-    <script src="/js/login.js"></script>
 </body>
 
 </html>

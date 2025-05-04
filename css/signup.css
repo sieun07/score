@@ -5,18 +5,20 @@
 }
 
 body {
-    background-color: #FFF1D5;
+    background-color: white;
 }
+
+
 
 .signup-wrapper{
     width: 35%;
-    height: 60%;
+    height: 55%;
     margin: 1%;
-    background-color: white;
+    background-color: #BCCCDC;
     padding: 2% 0% 2% 2%;
     border-radius: 15px;
     position: absolute;
-    top: 20%;
+    top: 15%;
     right: 10%;
 }
 
@@ -28,15 +30,8 @@ label {
 }
 
 h2{
-    color: #9EC6F3;
-}
-
-.who-check{
-    width: 100%;
-    margin-top: 3%;
-    border-radius: 10px;
-    padding-left: 0%;
-    font-size: 15px;
+    color: white;
+    font-size: 30px;
 }
 
 .name {
@@ -45,7 +40,7 @@ h2{
     margin-top: 4%;
     border-radius: 10px;
     padding-left: 5%;
-    background-color: rgb(239, 239, 239);
+    background-color: white;
 }
 
 .student_number {
@@ -54,8 +49,18 @@ h2{
     margin-top: 4%;
     border-radius: 10px;
     padding-left: 5%;
-    background-color: rgb(239, 239, 239);
+    background-color: white;
 }
+
+.check_code {
+    width: 85%;
+    height: 48px;
+    margin-top: 4%;
+    border-radius: 10px;
+    padding-left: 5%;
+    background-color: white;
+}
+
 
 .id {
     width: 85%;
@@ -63,7 +68,7 @@ h2{
     margin-top: 4%;
     border-radius: 10px;
     padding-left: 5%;
-    background-color: rgb(239, 239, 239);
+    background-color: white;
 }
 
 .password {
@@ -72,7 +77,7 @@ h2{
     margin-top: 4%;
     border-radius: 10px;
     padding-left: 5%;
-    background-color: rgb(239, 239, 239);
+    background-color: white;
 }
 
 .remember-check{
@@ -87,9 +92,9 @@ h2{
     height: 51px;
     margin-top: 4%;
     border-radius: 10px;
-    background-color: #9EC6F3;
+    background-color: #d1e4fb;
     font-size: 25px;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
@@ -102,7 +107,15 @@ h2{
 .login {
     font-size: 13px;
     text-decoration: none;
-    color: #9EC6F3;
-    margin-top: 1%;
+    color: white;
+    margin-top: 2%;
     width: 90%;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
 }
