@@ -1,0 +1,203 @@
+header {
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    box-shadow: 3px 3px 3px gray;
+    background-attachment: fixed;
+}
+
+.main {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    color: #55595D;
+}
+
+nav {
+    background-color: #BCCCDC;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-attachment: fixed;
+
+}
+
+nav>.profiles {
+    width: 35%;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+nav>.number {
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    color: white;
+}
+
+nav>.name {
+    position: absolute;
+    left: 50%;
+    top: 9%;
+    font-size: larger;
+    color: white;
+}
+
+nav>.mypage_nav {
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    text-decoration: none;
+}
+
+nav>.first {
+    width: 90%;
+    left: 5%;
+    background: white;
+    height: 1px;
+    border: 0;
+    position: absolute;
+    top: 36%;
+    left: 5%;
+}
+
+nav>.log_nav {
+    color: white;
+    position: absolute;
+    top: 39%;
+    left: 10%;
+    text-decoration: none;
+}
+
+nav>.two {
+    width: 90%;
+    left: 5%;
+    background: white;
+    height: 1px;
+    border: 0;
+    position: absolute;
+    top: 43%;
+    left: 5%;
+}
+
+nav>.community_nav {
+    color: #575e65;
+    position: absolute;
+    top: 46%;
+    left: 10%;
+    text-decoration: none;
+}
+
+nav>.three {
+    width: 90%;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background: white;
+    height: 1px;
+    border: 0;
+}
+
+.logout {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: #BCCCDC;
+    font-size: larger;
+    text-align: left;
+}
+
+.title_box {
+    width: 45%;
+    height: 7%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background-color: #E6EEF6;
+    display: flex;
+    align-items: center;
+    color: #55595D;
+}
+
+.title_box > .title {
+    width: 10%;
+    text-align: center;
+}
+
+.writer_box {
+    width: 20%;
+    height: 7%;
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    background-color: #E6EEF6;
+    display: flex;
+    align-items: center;
+    color: #55595D;
+}
+
+.writer_box > .writer {
+    width: 30%;
+    text-align: center;
+}
+
+.text_box {
+    width: 70%;
+    height: 55%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: #E6EEF6;
+    display: flex;
+    align-items: center;
+    color: #55595D;
+}
+
+.text_box > p {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+input {
+    width: 55%;
+    height: 5%;
+    border: 1;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    text-align: center;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: solid 1px #55595D;
+    color: #55595D;
+    
+}
+
+.sumit {
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    left: 85%;
+    bottom: 10%;
+    border: none;
+    border-radius: 5px;
+    background-color: #8392a0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}

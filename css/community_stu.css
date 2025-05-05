@@ -1,0 +1,205 @@
+header {
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    box-shadow: 3px 3px 3px gray;
+    background-attachment: fixed;
+}
+
+.main {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    color: #55595D;
+}
+
+nav {
+    background-color: #BCCCDC;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-attachment: fixed;
+
+}
+
+nav>.profiles {
+    width: 35%;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+nav>.number {
+    position: absolute;
+    left: 50%;
+    top: 6%;
+    color: white;
+}
+
+nav>.name {
+    position: absolute;
+    left: 50%;
+    top: 9%;
+    font-size: larger;
+    color: white;
+}
+
+nav>.mypage_nav {
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    text-decoration: none;
+}
+
+nav>.first {
+    width: 90%;
+    left: 5%;
+    background: white;
+    height: 1px;
+    border: 0;
+    position: absolute;
+    top: 36%;
+    left: 5%;
+}
+
+nav>.log_nav {
+    color: white;
+    position: absolute;
+    top: 39%;
+    left: 10%;
+    text-decoration: none;
+}
+
+nav>.two {
+    width: 90%;
+    left: 5%;
+    background: white;
+    height: 1px;
+    border: 0;
+    position: absolute;
+    top: 43%;
+    left: 5%;
+}
+
+nav>.community_nav {
+    color: #575e65;
+    position: absolute;
+    top: 46%;
+    left: 10%;
+    text-decoration: none;
+}
+
+nav>.three {
+    width: 90%;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background: white;
+    height: 1px;
+    border: 0;
+}
+
+.logout {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: #BCCCDC;
+    font-size: larger;
+    text-align: left;
+}
+
+.log {
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    overflow-y: scroll;
+}
+
+.list {
+    width: 90%;
+    height: 8%;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #55595D;
+    display: flex;
+    align-items: center;
+    border-top: solid 1px #55595D;
+    border-bottom: solid 1px #55595D;
+}
+
+.list>.number {
+    width: 10%;
+    text-align: center;
+}
+
+.list>.title {
+    width: 40%;
+    text-align: center;
+}
+
+.list>.who {
+    width: 20%;
+    text-align: center;
+}
+
+.list>.date {
+    width: 20%;
+    text-align: center;
+}
+
+.logs {
+    width: 90%;
+    height: 8%;
+    margin-top: 0%;
+    margin-left: 5%;
+    color: #55595D;
+    display: flex;
+    align-items: center;
+
+    border-bottom: solid 1px #55595D;
+}
+
+.logs>.number_ {
+    width: 10%;
+    text-align: center;
+}
+
+.logs>.title_ {
+    width: 40%;
+    text-align: center;
+}
+
+.logs>.who_ {
+    width: 20%;
+    text-align: center;
+}
+
+.logs>.date_ {
+    width: 20%;
+    text-align: center;
+}
+
+.logs > button {
+    width: 8%;
+    height: 60%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #6b8baa;
+    color: white;
+    cursor: pointer;
+}

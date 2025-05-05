@@ -2,6 +2,13 @@ body {
     background-color: white;
 }
 
+img {
+    position: absolute;
+    bottom: 0%;
+    right: 3%;
+    width: 50%;
+}
+
 header>.logo {
     width: 10%;
     height: 100%;
