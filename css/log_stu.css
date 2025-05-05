@@ -120,75 +120,36 @@ nav>.three {
     text-align: left;
 }
 
-.log {
+.log{
+    overflow-y: scroll;
     width: 80%;
     height: 90%;
     position: absolute;
     top: 10%;
     left: 20%;
-    overflow-y: scroll;
 }
 
-.list {
+table {
     width: 90%;
-    height: 8%;
-    margin-top: 5%;
+    border-collapse: collapse;
     margin-left: 5%;
+    margin-top: 3%;
+}
+
+/*이중선 제거*/
+th, td {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: 1px solid #55595D;
+    border-bottom: 1px solid #55595D;
+
+    vertical-align: top;
+    /* 위 */
+    vertical-align: bottom;
+    /* 아래 */
+    vertical-align: middle;
+    /* 가운데 */
+
+    text-align: center;
     color: #55595D;
-    display: flex;
-    align-items: center;
-    border-top: solid 1px #55595D;
-    border-bottom: solid 1px #55595D;
-}
-
-.list>.date {
-    width: 20%;
-    text-align: center;
-}
-
-.list>.reason {
-    width: 40%;
-    text-align: center;
-}
-
-.list>.score {
-    width: 20%;
-    text-align: center;
-}
-
-.list>.teacher {
-    width: 20%;
-    text-align: center;
-}
-
-.logs {
-    width: 90%;
-    height: 8%;
-    margin-top: 0%;
-    margin-left: 5%;
-    color: #55595D;
-    display: flex;
-    align-items: center;
-
-    border-bottom: solid 1px #55595D;
-}
-
-.logs>.date_ {
-    width: 20%;
-    text-align: center;
-}
-
-.logs>.reason_ {
-    width: 40%;
-    text-align: center;
-}
-
-.logs>.score_ {
-    width: 20%;
-    text-align: center;
-}
-
-.logs>.teacher_ {
-    width: 20%;
-    text-align: center;
 }

@@ -188,8 +188,9 @@ nav > .three{
     position: absolute;
     top: 27%;
     left: 22%;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 4px 4px 18px 4px rgb(207, 207, 207);
+    overflow: hidden;
 }
 
 .log_box > .header{
@@ -213,69 +214,30 @@ nav > .three{
     font-size: 25px;
 }
 
-.log_box > .list {
+.log {
     width: 90%;
-    height: 8%;
-    margin-top: 10%;
+    border-collapse: collapse;
+    margin-top: 11%;
     margin-left: 5%;
+}
+
+/*이중선 제거*/
+.log >th, td {
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: 1px solid #55595D;
+    border-bottom: 1px solid #55595D;
+
+    vertical-align: top;
+    /* 위 */
+    vertical-align: bottom;
+    /* 아래 */
+    vertical-align: middle;
+    /* 가운데 */
+
+    text-align: center;
     color: #55595D;
-    display: flex;
-    align-items: center;
-
-    border-top: solid 1px #55595D;
-    border-bottom: solid 1px #55595D;
-}
-
-.log_box > .list > .date {
-    width: 20%;
-    text-align: center;
-}
-
-.log_box > .list > .reason {
-    width: 40%;
-    text-align: center;
-}
-
-.log_box > .list > .score {
-    width: 20%;
-    text-align: center;
-}
-
-.log_box > .list > .all_score {
-    width: 20%;
-    text-align: center;
-}
-
-.log_box > .logs {
-    width: 90%;
-    height: 8%;
-    margin-top: 0%;
-    margin-left: 5%;
-    color: #55595D;
-    display: flex;
-    align-items: center;
-
-    border-bottom: solid 1px #55595D;
-}
-
-.log_box > .logs > .date_ {
-    width: 20%;
-    text-align: center;
-}
-
-.log_box > .logs > .reason_ {
-    width: 40%;
-    text-align: center;
-}
-
-.log_box > .logs > .score_ {
-    width: 20%;
-    text-align: center;
-}
-
-.log_box > .logs > .all_score_ {
-    width: 20%;
-    text-align: center;
 }
 
 .log_box > .more {
@@ -322,49 +284,30 @@ nav > .three{
     font-size: 25px;
 }
 
-.community_box > .list {
+.community{
     width: 90%;
-    height: 8%;
-    margin-top: 19.6%;
+    border-collapse: collapse;
+    margin-top: 18.5%;
     margin-left: 5%;
+}
+
+/*이중선 제거*/
+th, td {
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: 1px solid #55595D;
+    border-bottom: 1px solid #55595D;
+
+    vertical-align: top;
+    /* 위 */
+    vertical-align: bottom;
+    /* 아래 */
+    vertical-align: middle;
+    /* 가운데 */
+
+    text-align: center;
     color: #55595D;
-    display: flex;
-    align-items: center;
-
-    border-top: solid 1px #55595D;
-    border-bottom: solid 1px #55595D;
-}
-
-.community_box > .list > .title {
-    width: 60%;
-    text-align: center;
-}
-
-.community_box > .list > .date {
-    width: 40%;
-    text-align: center;
-}
-
-.community_box > .logs {
-    width: 90%;
-    height: 8%;
-    margin-top: 0%;
-    margin-left: 5%;
-    color: #55595D;
-    display: flex;
-    align-items: center;
-
-    border-bottom: solid 1px #55595D;
-}
-
-.community_box > .logs > .title_ {
-    width: 60%;
-    text-align: center;
-}
-
-.community_box > .logs > .date_{
-    width: 40%;
-    text-align: center;
 }
 
 .community_box > .more {

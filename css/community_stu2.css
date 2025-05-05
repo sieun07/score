@@ -132,26 +132,28 @@ nav>.three {
     color: #55595D;
 }
 
-.title_box > .title {
+.title_box>.title {
     width: 10%;
     text-align: center;
+    margin-left: 2%;
 }
 
 .writer_box {
-    width: 20%;
+    width: 22%;
     height: 7%;
     position: absolute;
     top: 15%;
-    left: 75%;
+    left: 73%;
     background-color: #E6EEF6;
     display: flex;
     align-items: center;
     color: #55595D;
 }
 
-.writer_box > .writer {
-    width: 30%;
+.writer_box>.writer {
+    width: 35%;
     text-align: center;
+    margin-left: 2%;
 }
 
 .text_box {
@@ -166,7 +168,7 @@ nav>.three {
     color: #55595D;
 }
 
-.text_box > p {
+.text_box>p {
     position: absolute;
     top: 5%;
     left: 3%;
@@ -185,7 +187,11 @@ input {
     border-right: 0px;
     border-bottom: solid 1px #55595D;
     color: #55595D;
-    
+
+}
+
+input:focus {
+    outline: none;
 }
 
 .sumit {
