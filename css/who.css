@@ -23,7 +23,7 @@ body {
 button{
     width: 30%;
     height: 100%;
-    margin: 3%;
+    margin: 0% 3% 0% 0%;
     background-color: #BCCCDC;
     border: none;
     border-radius: 15px;
@@ -33,14 +33,14 @@ button{
     width: 60%;
     height: auto;
     position: relative;
-    bottom: -14%;
+    top: 15%;
 }
 
 .stu_img {
     width: 66%;
     height: auto;
     position: relative;
-    bottom: -18%;
+    top: 20%;
 }
 
 p{

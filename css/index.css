@@ -40,7 +40,7 @@ header>.logo {
     border: none;
     border-radius: 10px;
     background-color: #BCCCDC;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 

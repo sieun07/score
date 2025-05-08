@@ -12,10 +12,11 @@ header {
     width: 80%;
     height: 10%;
     background-color: white;
-    position: absolute;
+    position: fixed;
     top: 0%;
     right: 0%;
     box-shadow: 3px 3px 3px gray;
+    z-index: 100;
 }
 
 .main {
@@ -29,7 +30,7 @@ nav {
     background-color: #BCCCDC;
     width: 20%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0%;
     left: 0%;
     
@@ -59,11 +60,17 @@ nav > .name {
 }
 
 nav > .mypage_nav {
-    color: #575e65;
+    height: 7%;
+    width: 90%;
+    background-color: #BCCCDC;
+    color: #55595D;
     position: absolute;
-    top: 32%;
+    top: 30%;
     left: 10%;
-    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: left;
 }
 
 nav > .first{
@@ -73,17 +80,23 @@ nav > .first{
     height:1px;
     border:0;
     position: absolute;
-    top: 36%;
+    top: 38%;
     left: 5%;
+    margin: 0%;
 }
 
 nav > .log_nav {
+    height: 7%;
+    width: 90%;
+    background-color: #BCCCDC;
     color: white;
     position: absolute;
     top: 39%;
     left: 10%;
-    text-decoration: none;
+    border: none;
+    font-size: 20px;
     cursor: pointer;
+    text-align: left;
 }
 
 nav > .two{
@@ -93,17 +106,24 @@ nav > .two{
     height:1px;
     border:0;
     position: absolute;
-    top: 43%;
+    top: 47%;
     left: 5%;
+    margin: 0%;
+    z-index: 5;
 }
 
 nav > .community_nav {
+    height: 7%;
+    width: 90%;
+    background-color: #BCCCDC;
     color: white;
     position: absolute;
-    top: 46%;
+    top: 48%;
     left: 10%;
-    text-decoration: none;
+    border: none;
     cursor: pointer;
+    font-size: 20px;
+    text-align: left;
 }
 
 nav > .three{
@@ -119,7 +139,8 @@ nav > .three{
 
 
 .logout {
-    width: 80%;
+    width: 7%;
+    width: 90%;
     height: auto;
     position: absolute;
     bottom: 5%;
@@ -219,6 +240,7 @@ nav > .three{
     border-collapse: collapse;
     margin-top: 11%;
     margin-left: 5%;
+    
 }
 
 /*이중선 제거*/
@@ -261,6 +283,7 @@ nav > .three{
     left: 70%;
     border-radius: 15px;
     box-shadow: 4px 4px 18px 4px rgb(207, 207, 207);
+    overflow: hidden;
 }
 
 .community_box > .header{
