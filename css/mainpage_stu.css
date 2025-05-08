@@ -244,29 +244,6 @@ nav > .three{
     
 }
 
-/*이중선 제거*/
-.log >th, td {
-    
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-top: 1px solid #55595D;
-    border-bottom: 1px solid #55595D;
-
-    vertical-align: top;
-    /* 위 */
-    vertical-align: bottom;
-    /* 아래 */
-    vertical-align: middle;
-    /* 가운데 */
-
-    text-align: center;
-    color: #55595D;
-
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
 .log_box > .more {
     width: 10%;
     height: 5%;
@@ -320,28 +297,7 @@ nav > .three{
     table-layout: fixed;
 }
 
-/*이중선 제거*/
-.community > th, td {
-    
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-top: 1px solid #55595D;
-    border-bottom: 1px solid #55595D;
 
-    vertical-align: top;
-    /* 위 */
-    vertical-align: bottom;
-    /* 아래 */
-    vertical-align: middle;
-    /* 가운데 */
-
-    text-align: center;
-    color: #55595D;
-
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-}
 
 .community_box > .more {
     width: 15%;
@@ -354,4 +310,23 @@ nav > .three{
     right: 3%;
     color: white;
     cursor: pointer;
+}
+
+th, td {
+    
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-top: 1px solid #55595D;
+    border-bottom: 1px solid #55595D;
+
+    vertical-align: top;
+    vertical-align: bottom;
+    vertical-align: middle;
+
+    text-align: center;
+    color: #55595D;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
