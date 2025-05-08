@@ -176,4 +176,10 @@ td {
 
     text-align: center;
     color: #55595D;
+
+    
+}
+
+table tr:not(:first-child):hover {    
+    background-color: #dae6f3;
 }
