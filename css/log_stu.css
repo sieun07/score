@@ -51,7 +51,7 @@ nav>.name {
     color: white;
 }
 
-nav > .mypage_nav {
+nav>.mypage_nav {
     height: 7%;
     width: 90%;
     background-color: #BCCCDC;
@@ -65,19 +65,19 @@ nav > .mypage_nav {
     text-align: left;
 }
 
-nav > .first{
+nav>.first {
     width: 90%;
     left: 5%;
-    background:white;
-    height:1px;
-    border:0;
+    background: white;
+    height: 1px;
+    border: 0;
     position: absolute;
     top: 38%;
     left: 5%;
     margin: 0%;
 }
 
-nav > .log_nav {
+nav>.log_nav {
     height: 7%;
     width: 90%;
     background-color: #BCCCDC;
@@ -91,12 +91,12 @@ nav > .log_nav {
     text-align: left;
 }
 
-nav > .two{
+nav>.two {
     width: 90%;
     left: 5%;
-    background:white;
-    height:1px;
-    border:0;
+    background: white;
+    height: 1px;
+    border: 0;
     position: absolute;
     top: 47%;
     left: 5%;
@@ -104,7 +104,7 @@ nav > .two{
     z-index: 5;
 }
 
-nav > .community_nav {
+nav>.community_nav {
     height: 7%;
     width: 90%;
     background-color: #BCCCDC;
@@ -143,7 +143,7 @@ nav>.three {
     text-align: left;
 }
 
-.log{
+.log {
     width: 80%;
     height: 90%;
     position: absolute;
@@ -159,7 +159,8 @@ table {
 }
 
 /*이중선 제거*/
-th, td {
+th,
+td {
     padding-top: 2%;
     padding-bottom: 2%;
     border-top: 1px solid #55595D;
@@ -174,4 +175,18 @@ th, td {
 
     text-align: center;
     color: #55595D;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dropdown-row {
+    background-color: #f9f9f9;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.main-row {
+    cursor: pointer;
 }

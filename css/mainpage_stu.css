@@ -153,12 +153,37 @@ nav > .three{
     text-align: left;
 }
 
-.up_score {
-    width: 37%;
+.all_score {
+    width: 23%;
     height: 8%;
     position: absolute;
     top: 15%;
     left: 22%;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.all_score > .box {
+    width: 4%;
+    height: 100%;
+    background-color: #BCCCDC;
+}
+
+.all_score > h1 {
+    width: 83%;
+    height: 90%;
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    margin: 1% 0%;
+    color: #575e65;
+}
+
+.up_score {
+    width: 23%;
+    height: 8%;
+    position: absolute;
+    top: 15%;
+    left: 48%;
     box-shadow: 5px 5px 5px gray;
 }
 
@@ -179,11 +204,11 @@ nav > .three{
 }
 
 .down_score {
-    width: 37%;
+    width: 23%;
     height: 8%;
     position: absolute;
     top: 15%;
-    left: 61%;
+    left: 75%;
     box-shadow: 5px 5px 5px gray;
 }
 
